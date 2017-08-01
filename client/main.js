@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Meteor} from 'meteor/meteor';
+import {Navbar} from '../import/header.js';
 
 class HelloWorld extends React.Component {
   render() {
     return (
+      <div>
+      <Navbar />
       <div className="section no-pad-bot" id="index-banner">
   <div className="container">
 
@@ -17,6 +20,8 @@ class HelloWorld extends React.Component {
     </div>
 
   </div>
+
+</div>
 </div>
     );
   }
