@@ -9,9 +9,7 @@ export class Navbar extends React.Component {
         <div className="nav-wrapper container"><a id="logo-container" href="/" className="brand-logo">
           <img src = {'pictures/word.png'} />
         </a>
-          <ul className="right hide-on-med-and-down">
-            <li><a href="./login.php">Login</a></li>
-          </ul>
+          
 
           <ul id="nav-mobile" className="side-nav">
             <li><a href="#">Navbar Link</a></li>

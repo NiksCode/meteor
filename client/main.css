@@ -14,13 +14,20 @@
    flex-direction: column !important;
  }
 
+
  main {
+   background-image: url("pictures/space.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
    flex: 1 0 auto;
  }
 
  html {
     font-family: 'Zilla Slab', serif !important;
+    min-height: 100vh !important;
   }
+
+
 
 
 .icon-block {
@@ -55,4 +62,42 @@ background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(50,59,73,1) 50%,
 
 body > footer > div.footer-copyright > div > a {
     margin-right:1em;
+}
+
+body > footer {
+      margin-top: 0px !important;
+      padding-top: 0px !important;
+}
+
+
+
+.qwe {
+  display:inline-block;
+  position:relative;
+  top: 0;
+  left:0;
+  min-width: 517px !important;
+}
+
+.rty{
+position:relative;
+ top: 0;
+  left:0;
+  min-width: 517px !important;
+}
+
+.uio{
+position:absolute;
+top: 20px;
+left:17px;
+min-width: 483px !important;
+}
+
+.info {
+border-radius: 60px;
+padding: 10px;
+margin: 50pt auto;
+color: #000038;
+background: #f4fafc;
+}
 }
